@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2022-03-09T12:53:14.320-03:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/pb/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -17,9 +19,12 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pb/components/separator"/>
             <text
+                jcr:lastModified="{Date}2022-03-09T12:53:14.242-03:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pb/components/text"
-                text="&lt;p>Copyright 2022, PB 404.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;&lt;p>345 Park Avenue,&amp;nbsp;San Jose, CA 95110-2704, USA&lt;/p>&#xd;&#xa;"
+                id="footer--text"
+                text="&lt;p>created by &lt;b>username&lt;/b> - devChallenges.io&lt;/p>&#xd;&#xa;"
                 textIsRich="true"/>
         </root>
     </jcr:content>

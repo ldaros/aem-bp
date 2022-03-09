@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-03-09T12:52:47.946-03:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/pb/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="pb/components/page">
@@ -10,28 +12,29 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="pb/components/container"
             layout="responsiveGrid">
-            <experiencefragment-header
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="pb/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/pb/us/en/site/header/master"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pb/components/container"
                 layout="responsiveGrid">
-                <title
+                <experiencefragment_h
+                    jcr:lastModified="{Date}2022-03-09T12:47:19.251-03:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="pb/components/title"
-                    editable="{Boolean}true"/>
+                    sling:resourceType="pb/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/pb/us/en/site/header/master"
+                    id="header--text"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pb/components/container"
                     editable="{Boolean}true"
                     layout="responsiveGrid"/>
+                <experiencefragment_f
+                    jcr:lastModified="{Date}2022-03-09T12:52:47.942-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pb/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/pb/us/en/site/footer/master"/>
             </container>
-            <experiencefragment-footer
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="pb/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/pb/us/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
