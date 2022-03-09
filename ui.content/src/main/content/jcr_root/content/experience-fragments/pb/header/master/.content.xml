@@ -31,7 +31,6 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pb/components/search"
                 searchRoot="/content/pb/us"/>
-            <logo/>
             <title
                 jcr:created="{Date}2022-03-09T12:45:07.591-03:00"
                 jcr:createdBy="admin"
@@ -40,6 +39,7 @@
                 jcr:primaryType="nt:unstructured"
                 jcr:title="404 not found"
                 sling:resourceType="pb/components/title"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>

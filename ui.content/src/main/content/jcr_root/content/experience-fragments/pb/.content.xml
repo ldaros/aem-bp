@@ -6,5 +6,6 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="PB 404 Fragments"
     sling:configRef="/conf/pb">
-    <us/>
+    <header/>
+    <footer/>
 </jcr:root>

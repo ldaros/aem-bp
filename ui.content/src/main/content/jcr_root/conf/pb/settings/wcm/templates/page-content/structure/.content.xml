@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-03-09T12:52:47.946-03:00"
+        cq:lastModified="{Date}2022-03-09T13:35:52.345-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pb/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -17,11 +17,11 @@
                 sling:resourceType="pb/components/container"
                 layout="responsiveGrid">
                 <experiencefragment_h
-                    jcr:lastModified="{Date}2022-03-09T12:47:19.251-03:00"
+                    jcr:lastModified="{Date}2022-03-09T13:35:45.619-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pb/components/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/pb/us/en/site/header/master"
+                    fragmentVariationPath="/content/experience-fragments/pb/header/master"
                     id="header--text"/>
                 <container
                     jcr:primaryType="nt:unstructured"
@@ -29,11 +29,11 @@
                     editable="{Boolean}true"
                     layout="responsiveGrid"/>
                 <experiencefragment_f
-                    jcr:lastModified="{Date}2022-03-09T12:52:47.942-03:00"
+                    jcr:lastModified="{Date}2022-03-09T13:35:52.341-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pb/components/experiencefragment"
-                    fragmentVariationPath="/content/experience-fragments/pb/us/en/site/footer/master"/>
+                    fragmentVariationPath="/content/experience-fragments/pb/footer/master"/>
             </container>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">

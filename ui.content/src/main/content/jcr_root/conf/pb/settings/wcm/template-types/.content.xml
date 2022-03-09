@@ -3,8 +3,8 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <page/>
+    <rep:policy/>
     <nextjs-page/>
     <remote-page/>
     <xf/>
-    <rep:policy/>
 </jcr:root>
