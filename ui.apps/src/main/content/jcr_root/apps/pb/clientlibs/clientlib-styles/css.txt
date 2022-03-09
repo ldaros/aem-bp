@@ -1,6 +1,0 @@
-less/header.less
-less/footer.less
-less/button.less
-less/text.less
-less/title.less
-less/page.less 
