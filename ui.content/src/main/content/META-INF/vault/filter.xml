@@ -2,6 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/pb" mode="merge" />
     <filter root="/content/pb" mode="merge" />
-    <filter root="/content/dam/pb/" mode="merge" />
+    <filter root="/content/dam/pb/Scarecrow.png" mode="merge" />
     <filter root="/content/experience-fragments/pb" mode="merge" />
 </workspaceFilter>
